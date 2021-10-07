@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -39,4 +39,26 @@
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+.checked {
+  color: green;
+}
+
+.checked:after {
+  content: " ✓";
+  color: green;
+}
+
+.ToDoListDiv {
+  max-width: 50%;
+  margin: 5rem auto auto auto;
+  padding: 1rem;
+  background-color: rgb(243, 240, 235);
+  border-top: 10px dotted white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  line-height: 2rem;
+  color: rgb(43, 41, 41);
+  box-shadow: 0px 10px 10px 5px #a09f9f;
 }
